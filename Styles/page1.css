@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.form-signin-wrapper {
+  min-height: calc(100vh - 72px);
+  padding: 1rem;
+}
+.row {
+  margin-top: 25px;
+  gap: 20px;
+}
+.title-page {
+  font-size: 65px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col {
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.798);
+}
+.title-card {
+  margin-top: 10px;
+  font-size: 25px;
+  min-width: 170px;
+}
+.icon-card {
+  color: #ffee00;
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-page {
+    font-size: 50px;
+    max-width: 600px;
+  }
+}
+@media (max-width: 445px) {
+  .title-page {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 15px;
+  }
+}
