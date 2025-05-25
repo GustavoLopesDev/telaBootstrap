@@ -2,6 +2,8 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-color: #010b38;
+  color: #fff;
 }
 
 .form-signin-wrapper {
@@ -22,7 +24,7 @@ body {
 .col {
   border-radius: 20px;
   padding: 1rem 1.5rem;
-  background-color: rgba(0, 0, 0, 0.798);
+  background-color: #000829;
 }
 .title-card {
   margin-top: 10px;
